@@ -38,8 +38,6 @@
     "minecraft:kelp_plant",
     "minecraft:deepslate",
     "minecraft:tuff",
-    "minecraft:glow_lichen",
-    "minecraft:clay",
-    "minecraft:moss_block"
+    "minecraft:glow_lichen"
   ]
 }

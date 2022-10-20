@@ -4,7 +4,7 @@ adaptingModifierCap = 10.0
 #Bauxite Ore Worldgen
 [bauxite_ore]
 	#Enable/Disable Bauxite ore
-	bauxiteOreEnabled = false
+	bauxiteOreEnabled = true
 	#Min Y level
 	#Range: -60 ~ 256
 	minY = -60

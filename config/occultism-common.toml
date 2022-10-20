@@ -13,10 +13,10 @@
 			fillerBlockTag = "minecraft:stone_ore_replaceables"
 			#The size of veins for this ore.
 			#Range: 0 ~ 127
-			size = 7
+			size = 5
 			#The count value for the decorator for this ore.
 			#Range: 0 ~ 127
-			count = 3
+			count = 7
 			#Range configuration min height.
 			#Range: > -2147483648
 			bottomOffset = 50
@@ -32,10 +32,10 @@
 			fillerBlockTag = "minecraft:deepslate_ore_replaceables"
 			#The size of veins for this ore.
 			#Range: 0 ~ 127
-			size = 7
+			size = 10
 			#The count value for the decorator for this ore.
 			#Range: 0 ~ 127
-			count = 3
+			count = 10
 			#Range configuration min height.
 			#Range: > -2147483648
 			bottomOffset = -64

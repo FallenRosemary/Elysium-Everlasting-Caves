@@ -11,7 +11,7 @@
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 
 	[Settings."FPS Counter"]
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
 		"FPS Counter Distance" = 12
 
 	[Settings."Entity Distance"]
@@ -32,7 +32,7 @@
 	[Settings."True Darkness"]
 		"Use True Darkness" = true
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
-		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "PITCH_BLACK"
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
 
 		[Settings."True Darkness".Advanced]
 			"Only Effect Block Lighting" = false

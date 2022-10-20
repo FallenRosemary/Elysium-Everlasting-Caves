@@ -21,7 +21,7 @@
 
 	[blocks.rope]
 		#Allows ropes to be supported & attached to solid block sides
-		block_side_attachment = false
+		block_side_attachment = true
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
 		slide_on_fall = true
 
