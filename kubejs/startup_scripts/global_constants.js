@@ -101,8 +101,8 @@ global.rocks = [
     {tagName:'smooth_basalt', displayName:'Smooth Basalt', sourcePrefix:'minecraft'},
     {
         tagName:'sky_stone_block',
-        displayName:'Skystone',
-        sourcePrefix:'minecraft',
+        displayName:'Sky Stone',
+        sourcePrefix:'ae2',
     },
     {tagName:'livingrock',    displayName:'Livingrock',    sourcePrefix:'botania'},
     {tagName:'scoria',        displayName:'Scoria',        sourcePrefix:'create'},
