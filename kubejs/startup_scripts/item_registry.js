@@ -198,27 +198,27 @@ onEvent('item.registry', event => {
 		{
 			id:`screw_basic`,
 			name:`Crude Screw`,
-			texturePath:`screw/basic`
+			texturePath:`screws/basic`
 		},
 		{
 			id:`screw_brass_incomplete`,
 			name:`Incomplete Brass Screw`,
-			texturePath:`screw/brass_incomplete`
+			texturePath:`screws/brass_incomplete`
 		},
 		{
 			id:`screw_brass`,
 			name:`Hex Ash-Tipped Brass Screw`,
-			texturePath:`screw/brass`
+			texturePath:`screws/brass`
 		},
 		{
 			id:`screw_compressed_iron`,
 			name:`Compressed Iron Screw`,
-			texturePath:`screw/compressed_iron`
+			texturePath:`screws/compressed_iron`
 		},
 		{
 			id:`screw_stainless_steel`,
 			name:`Stainless Steel Screw`,
-			texturePath:`screw/stainless_steel`
+			texturePath:`screws/stainless_steel`
 		},
 	]
 
