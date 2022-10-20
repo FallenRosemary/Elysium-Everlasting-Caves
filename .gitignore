@@ -1,8 +1,9 @@
 # Folders/wildcards
+/kubejs/README.txt
 /o_prof/
-/supportercache.json/
+/supportercache.json
 /config/oculus.properties
-not-enough-crashes/
+/not-enough-crashes/
 /journeymap/
 /dumps/
 /crash-reports/
