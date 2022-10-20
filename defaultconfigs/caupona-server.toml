@@ -71,7 +71,7 @@
 	#Super secret special content
 	specialContents = true
 	#Add manual to player on start
-	addManual = true
+	addManual = false
 
 [compat]
 
