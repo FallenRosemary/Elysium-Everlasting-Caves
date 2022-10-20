@@ -1,0 +1,46 @@
+{
+	id: "7D6B7EFC342E249B"
+	group: "49D1E33971062C25"
+	order_index: 0
+	filename: "chapter_5_diesel_diy_kit"
+	title: "4A: Industrial DIY Kit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "0416216D4E000AE9"
+			tasks: [{
+				id: "5DEBD38165C4F41B"
+				type: "item"
+				item: "kubejs:machine_scraps"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "7494850604263935"
+			tasks: [{
+				id: "54108B2FF0A914FB"
+				type: "item"
+				item: "immersiveengineering:dust_coke"
+				count: 8L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: [
+				"0416216D4E000AE9"
+				"7494850604263935"
+			]
+			id: "18A82C0E55E4AC91"
+			tasks: [{
+				id: "4CF6FA0B05AE6CB0"
+				type: "item"
+				item: "tinkers_reforged:cyber_steel_ingot"
+			}]
+		}
+	]
+}

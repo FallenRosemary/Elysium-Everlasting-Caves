@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "020AA71704108E7A", title: "Everlasting Start" }
+		{ id: "46F01FB593AAC96D", title: "Chapter 1: Basic Screws" }
+		{ id: "13A21DF4D619EFA0", title: "Chapter A: Brass Screws" }
+		{ id: "137D3B4A706AF64A", title: "Chapter 2: Basic Screws" }
+		{ id: "5469633F9C9569EE", title: "Chapter 3: Compressed Iron Screws" }
+		{ id: "49D1E33971062C25", title: "Chapter 4: Stainless Steel Screws" }
+		{ id: "528E06A3ED2D1511", title: "Everlasting End" }
+		{ id: "60E605D5FD042217", title: "Everlasting Chains (WIP)" }
+	]
+}

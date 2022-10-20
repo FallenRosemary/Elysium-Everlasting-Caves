@@ -1,0 +1,163 @@
+{
+	id: "05BF6683D9501C25"
+	group: "020AA71704108E7A"
+	order_index: 1
+	filename: "chapter_2"
+	title: "0B: A Harsh Start"
+	icon: "kubejs:mortar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "56C47DEEE1F50F7F"
+			tasks: [{
+				id: "071919072A62960D"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			id: "17899B5770CE6565"
+			tasks: [{
+				id: "7F62B45919D5BEA6"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: [
+				"56C47DEEE1F50F7F"
+				"17899B5770CE6565"
+			]
+			id: "5BDECAAC14AC2B33"
+			tasks: [{
+				id: "07C76140F79DC496"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["5BDECAAC14AC2B33"]
+			id: "52158F5A7C5C83A4"
+			tasks: [{
+				id: "74099885D546C91D"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: [
+				"52158F5A7C5C83A4"
+				"52666A5500A262FD"
+			]
+			id: "3C5BA2AE2F5E6D33"
+			tasks: [{
+				id: "7FD78310C62B87D9"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			title: "Planks"
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["0934B0BB0D7B717B"]
+			id: "52666A5500A262FD"
+			tasks: [{
+				id: "2EB0309D154CDF16"
+				type: "item"
+				title: "Planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elysia:plank/all"
+					}
+				}
+			}]
+		}
+		{
+			title: "Stripped Logs"
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["68B85D090451C12A"]
+			id: "0934B0BB0D7B717B"
+			tasks: [{
+				id: "3B8666174E4A6C22"
+				type: "item"
+				title: "Stripped Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stripped_logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["52666A5500A262FD"]
+			id: "2671327F89A503D4"
+			tasks: [{
+				id: "52048BAC5CA86BFC"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: [
+				"17899B5770CE6565"
+				"56C47DEEE1F50F7F"
+			]
+			id: "68B85D090451C12A"
+			tasks: [{
+				id: "3B77B609084F11DA"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["2671327F89A503D4"]
+			id: "6877929897EA1099"
+			tasks: [{
+				id: "495491F4D47E2676"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,647 @@
+{
+	id: "079F61482BD6C1A1"
+	group: "46F01FB593AAC96D"
+	order_index: 0
+	filename: "concepts"
+	title: "1A: Kinetic DIY Kit"
+	icon: "kubejs:andesite_diy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -11.5d
+			y: -5.0d
+			dependencies: [
+				"537A594AB83844D8"
+				"1E9F3F3B05E33D89"
+				"5B53B9AB50196C75"
+			]
+			id: "2C3E1F53AC2AEF9F"
+			tasks: [{
+				id: "5EFD52BFBD998097"
+				type: "item"
+				item: "kubejs:andesite_lined_daub"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			shape: "diamond"
+			dependencies: ["06CF9B0A37DBFC09"]
+			id: "55F4205E40436A8B"
+			tasks: [{
+				id: "24E50F9314CDE39E"
+				type: "item"
+				item: "kubejs:screw_basic"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.0d
+			dependencies: [
+				"474CE7E4B20E658C"
+				"4DCD572BA7E2735F"
+			]
+			id: "1E9F3F3B05E33D89"
+			tasks: [{
+				id: "50302AF2A4D498C7"
+				type: "item"
+				item: "supplementaries:daub"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -5.0d
+			dependencies: [
+				"7413E22DC4C3A091"
+				"4F7917CC325B177F"
+				"0B8E9DFE4A8AC174"
+			]
+			id: "537A594AB83844D8"
+			tasks: [{
+				id: "2F4B745A0ED52C74"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			dependencies: [
+				"78F07799CBC6C2F8"
+				"39567F2A4BB61D02"
+			]
+			id: "4F7917CC325B177F"
+			tasks: [{
+				id: "51A58A71A480825F"
+				type: "item"
+				item: "architects_palette:algal_brick"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.0d
+			shape: "circle"
+			dependencies: ["3BD86B58A4E35110"]
+			id: "7413E22DC4C3A091"
+			tasks: [{
+				id: "0688EB898962BD3A"
+				type: "item"
+				item: "kubejs:brick_andesite"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "4DCD572BA7E2735F"
+			tasks: [{
+				id: "4BDEF14B51E3E19B"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "474CE7E4B20E658C"
+			tasks: [{
+				id: "04760A84227C63A3"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -5.0d
+			dependencies: [
+				"185F3CA7656B6361"
+				"1818C350B1176E64"
+				"2833EC846F179FC7"
+				"47EFA4D343C5D42E"
+				"73259C96CED27ED4"
+			]
+			id: "78F07799CBC6C2F8"
+			tasks: [{
+				id: "662884FD7B668B4B"
+				type: "item"
+				item: "architects_palette:algal_blend"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			size: 0.5d
+			id: "5B53B9AB50196C75"
+			tasks: [{
+				id: "697861C22B1CA58A"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			size: 0.5d
+			id: "39567F2A4BB61D02"
+			tasks: [{
+				id: "05B47195652A80F5"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -5.0d
+			dependencies: ["19D33BB1D96A51FE"]
+			id: "2833EC846F179FC7"
+			tasks: [{
+				id: "664EAD5672359D34"
+				type: "item"
+				item: "tinkers_reforged:molten_kelp_bucket"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.0d
+			shape: "diamond"
+			id: "47EFA4D343C5D42E"
+			tasks: [{
+				id: "275450371213F610"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.0d
+			shape: "diamond"
+			id: "1818C350B1176E64"
+			tasks: [{
+				id: "0417CFE7C7F05B98"
+				type: "item"
+				title: "Any #forge:dusts/ash"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/ash"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: -4.0d
+			shape: "diamond"
+			id: "185F3CA7656B6361"
+			tasks: [{
+				id: "161C0480DF72D039"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			size: 0.5d
+			id: "73259C96CED27ED4"
+			tasks: [{
+				id: "4F98D6ADF7EF8955"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: false
+			dependencies: ["122CF919FF19F1D1"]
+			hide_text_until_complete: true
+			size: 0.5d
+			id: "0B8E9DFE4A8AC174"
+			tasks: [{
+				id: "2244CA3FAE21E14C"
+				type: "item"
+				item: "minecraft:tnt"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: [
+				"62EA91DFBA20B730"
+				"2C3E1F53AC2AEF9F"
+				"55F4205E40436A8B"
+				"6BC1DA25AABEED6A"
+			]
+			id: "2A5C6B1580DF988E"
+			tasks: [{
+				id: "6BBC1B05601E8F42"
+				type: "item"
+				item: "kubejs:andesite_diy"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.0d
+			dependencies: ["2CD661DEB5DE1C48"]
+			id: "62EA91DFBA20B730"
+			tasks: [{
+				id: "240E13D6FF316CE0"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.0d
+			dependencies: [
+				"47B928B19688B195"
+				"5CC4F66E5610F043"
+			]
+			id: "6B62399AC91F5400"
+			tasks: [{
+				id: "4687F3B41934DEC7"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			shape: "diamond"
+			id: "47B928B19688B195"
+			tasks: [{
+				id: "344816D5F682ED05"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			shape: "gear"
+			size: 0.5d
+			id: "5CC4F66E5610F043"
+			tasks: [{
+				id: "6CD0398A171B74B5"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:wooden_blacksmith_gavel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: -6.0d
+			shape: "diamond"
+			id: "19D33BB1D96A51FE"
+			tasks: [{
+				id: "3A41D940FDC26C0C"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"537A594AB83844D8"
+				"74062C778A9E2051"
+			]
+			id: "2CD661DEB5DE1C48"
+			tasks: [{
+				id: "11A0B786E2181626"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			shape: "gear"
+			size: 0.5d
+			id: "74062C778A9E2051"
+			tasks: [{
+				id: "6D361924F940F251"
+				type: "item"
+				item: {
+					id: "kubejs:file"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["6423399AC3AAC097"]
+			size: 0.5d
+			id: "334A8DF856309E03"
+			tasks: [{
+				id: "0332BFC1B743F306"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -4.0d
+			dependencies: [
+				"713FEA9AE45CBDDE"
+				"74089C7CFB449695"
+				"0F7B9C7CEF719631"
+			]
+			id: "6423399AC3AAC097"
+			tasks: [
+				{
+					id: "2465E48B609539D8"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "50152DB704C1F69E"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+			]
+		}
+		{
+			title: "Honeycombs"
+			x: -7.5d
+			y: -6.0d
+			shape: "diamond"
+			id: "6BC1DA25AABEED6A"
+			tasks: [{
+				id: "3B4211046224EBE3"
+				type: "item"
+				title: "Honeycombs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:honeycombs"
+					}
+				}
+			}]
+		}
+		{
+			x: -18.0d
+			y: -5.0d
+			dependencies: ["02AE3C29D34CE175"]
+			id: "713FEA9AE45CBDDE"
+			tasks: [{
+				id: "35387DB09AE45C15"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -5.5d
+			shape: "gear"
+			size: 0.5d
+			id: "44715790E4765189"
+			tasks: [{
+				id: "72C31832B1144F66"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -5.0d
+			dependencies: [
+				"68B863EB585E875D"
+				"5A5FD57B82BB8C2A"
+				"36F76C7D758A4D8A"
+			]
+			id: "02AE3C29D34CE175"
+			tasks: [{
+				id: "11B34E6F544F265F"
+				type: "item"
+				item: "kubejs:seared_brick_blend"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -4.0d
+			dependencies: [
+				"6C76D17CFD3300D9"
+				"2B0C668736E44CA8"
+			]
+			id: "74089C7CFB449695"
+			tasks: [{
+				id: "19F6B20F69C925C4"
+				type: "item"
+				item: "kubejs:mortar"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -3.5d
+			shape: "gear"
+			size: 0.5d
+			id: "24965F4F0BC6BB40"
+			tasks: [{
+				id: "75AEF5E49EEFB08E"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -5.5d
+			shape: "gear"
+			size: 0.5d
+			id: "1646B7F06E3E2860"
+			tasks: [{
+				id: "1A8DDD758E1A6682"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -5.5d
+			shape: "diamond"
+			id: "36F76C7D758A4D8A"
+			tasks: [{
+				id: "279042A149A29409"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -5.0d
+			shape: "diamond"
+			id: "5A5FD57B82BB8C2A"
+			tasks: [{
+				id: "59AEF09E6F1BBF70"
+				type: "item"
+				item: "kubejs:pile_gravel"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -4.5d
+			shape: "diamond"
+			id: "68B863EB585E875D"
+			tasks: [{
+				id: "3FA17A891DDF9301"
+				type: "item"
+				item: "kubejs:pile_sand"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -4.0d
+			shape: "diamond"
+			id: "2B0C668736E44CA8"
+			tasks: [{
+				id: "4712B688BE9CEE9C"
+				type: "item"
+				item: "kubejs:pile_sand"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -3.0d
+			dependencies: ["7F717BA45154AF65"]
+			id: "6C76D17CFD3300D9"
+			tasks: [{
+				id: "4C78F5FB562322E7"
+				type: "item"
+				item: "kubejs:limestone_flux"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "7F717BA45154AF65"
+			tasks: [{
+				id: "37F348C9720C0EA8"
+				type: "item"
+				item: "create:limestone"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["2A5C6B1580DF988E"]
+			size: 1.5d
+			id: "18488F6652D1E9DC"
+			tasks: [{
+				id: "53C605570CC1F0BE"
+				type: "item"
+				item: "kubejs:andesite_diy"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			id: "122CF919FF19F1D1"
+			tasks: [{
+				id: "33797068CF7DD579"
+				type: "item"
+				item: "minecraft:tnt"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			dependencies: ["6B62399AC91F5400"]
+			id: "06CF9B0A37DBFC09"
+			tasks: [{
+				id: "7578887A052E8015"
+				type: "item"
+				item: "immersiveengineering:stick_iron"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			shape: "gear"
+			size: 0.5d
+			id: "755D47E536C03DD8"
+			tasks: [{
+				id: "71AE08AF946B504E"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:wooden_blacksmith_gavel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: -3.0d
+			id: "0F7B9C7CEF719631"
+			tasks: [{
+				id: "30C2A9644D5EA8BB"
+				type: "item"
+				item: "minecraft:jack_o_lantern"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.0d
+			shape: "diamond"
+			id: "3BD86B58A4E35110"
+			tasks: [{
+				id: "624BB70FB874FA41"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.5d
+			shape: "gear"
+			size: 0.5d
+			id: "5AE8E784CDC05E58"
+			tasks: [{
+				id: "5C7725FC139B5FC8"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -2.5d
+			shape: "gear"
+			size: 0.5d
+			id: "7E2373AEF81A9949"
+			tasks: [{
+				id: "12411E7B62C4809E"
+				type: "item"
+				item: "minecraft:tnt"
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "521DAD81418D228C"
+	group: "137D3B4A706AF64A"
+	order_index: 0
+	filename: "chapter_2_precise_diy_kit"
+	title: "2A: Precise DIY Kit"
+	icon: "kubejs:brass_diy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

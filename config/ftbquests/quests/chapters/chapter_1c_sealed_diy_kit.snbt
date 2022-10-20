@@ -1,0 +1,333 @@
+{
+	id: "35291BA1DAA02688"
+	group: "46F01FB593AAC96D"
+	order_index: 1
+	filename: "chapter_1c_sealed_diy_kit"
+	title: "1B: Sealed DIY Kit"
+	icon: "kubejs:copper_diy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: [
+				"20A150191A35B5CF"
+				"3484D07112FE23EE"
+				"77509C6664228A1A"
+				"279DBAFC03ACCDAE"
+			]
+			id: "414EE45E1E78D434"
+			tasks: [{
+				id: "379072775899FCB7"
+				type: "item"
+				item: "kubejs:copper_diy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["53C506F33F12342B"]
+			id: "77509C6664228A1A"
+			tasks: [{
+				id: "22389CCAE66B27A2"
+				type: "item"
+				item: "kubejs:copper_lined_daub"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["469910851BE82742"]
+			id: "3484D07112FE23EE"
+			tasks: [{
+				id: "4F43623E31130536"
+				type: "item"
+				item: "kubejs:screw_basic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: [
+				"12C7087EFA341A62"
+				"4406F5A5519FACA6"
+				"18488F6652D1E9DC"
+				"04DF150E52A9F125"
+			]
+			id: "279DBAFC03ACCDAE"
+			tasks: [{
+				id: "172D11454866E19B"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: [
+				"0673E014DC23D4F5"
+				"27EC439366E3068C"
+			]
+			id: "20A150191A35B5CF"
+			tasks: [{
+				id: "6984B1BBEFA6CBA3"
+				type: "item"
+				item: "kubejs:copper_piping"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["414EE45E1E78D434"]
+			size: 2.0d
+			id: "12F4E4A99FF6815C"
+			tasks: [{
+				id: "0E926BE48ADFCE4A"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: [
+				"19D361F40B3A1CB3"
+				"6D44D18F55987C34"
+			]
+			id: "53C506F33F12342B"
+			tasks: [{
+				id: "14C7262333F8A951"
+				type: "item"
+				item: "supplementaries:daub"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			shape: "diamond"
+			id: "19D361F40B3A1CB3"
+			tasks: [{
+				id: "7877441040DBBDC2"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "diamond"
+			id: "6D44D18F55987C34"
+			tasks: [{
+				id: "608B03281FED90BB"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["7DF9C698C5B90359"]
+			id: "469910851BE82742"
+			tasks: [{
+				id: "77347DF72976C37A"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "diamond"
+			id: "7DF9C698C5B90359"
+			tasks: [{
+				id: "18AFE60DD796BD82"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["1B348640E0EF4E14"]
+			id: "0673E014DC23D4F5"
+			tasks: [{
+				id: "443740C17DEC5ACB"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			id: "1B348640E0EF4E14"
+			tasks: [{
+				id: "74E024A36DF755BF"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: [
+				"19A92B44A27A0F6F"
+				"18488F6652D1E9DC"
+				"68201D6C3362A8FB"
+			]
+			id: "4406F5A5519FACA6"
+			tasks: [{
+				id: "0C43B3EB747A6883"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: [
+				"166807CF435610A2"
+				"18488F6652D1E9DC"
+				"6625AEC7299F7B48"
+			]
+			id: "12C7087EFA341A62"
+			tasks: [{
+				id: "0724AFD0471B7222"
+				type: "item"
+				title: "Any #forge:dusts/sulfur"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/sulfur"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"18488F6652D1E9DC"
+				"1FE706B7E07DC2BF"
+			]
+			id: "19A92B44A27A0F6F"
+			tasks: [{
+				id: "0D0CF7EA279A2400"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["18488F6652D1E9DC"]
+			size: 0.5d
+			id: "1FE706B7E07DC2BF"
+			tasks: [{
+				id: "78F60EA04785C3F8"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["18488F6652D1E9DC"]
+			size: 0.5d
+			id: "68201D6C3362A8FB"
+			tasks: [{
+				id: "0A0FB1D09BCABBAE"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["18488F6652D1E9DC"]
+			size: 0.5d
+			id: "04DF150E52A9F125"
+			tasks: [{
+				id: "31F1964A93D77D85"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["18488F6652D1E9DC"]
+			size: 0.5d
+			id: "6625AEC7299F7B48"
+			tasks: [{
+				id: "6FB09E5D1F256650"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: [
+				"3D4A83AFBBAD5227"
+				"18488F6652D1E9DC"
+				"2BE6BDC63129ACA3"
+			]
+			id: "166807CF435610A2"
+			tasks: [{
+				id: "7F2E7851AECAFB85"
+				type: "item"
+				item: "thermal:sulfur"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "diamond"
+			id: "3D4A83AFBBAD5227"
+			tasks: [{
+				id: "728DF2634BF5E885"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "gear"
+			size: 0.5d
+			id: "2BE6BDC63129ACA3"
+			tasks: [{
+				id: "621FEE9B3C57DC10"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "gear"
+			size: 0.5d
+			id: "00A8D1E50BD162A2"
+			tasks: [{
+				id: "0D3021EBD2E4B27C"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "27EC439366E3068C"
+			tasks: [{
+				id: "045C94488573EDCC"
+				type: "item"
+				item: "thermal:gold_gear"
+			}]
+		}
+	]
+}

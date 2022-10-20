@@ -1,0 +1,11 @@
+{
+	id: "041B25144F93020B"
+	group: "137D3B4A706AF64A"
+	order_index: 1
+	filename: "3c_redstone_control_diy_kit"
+	title: "2B: RC DIY Kit"
+	icon: "kubejs:invar_diy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

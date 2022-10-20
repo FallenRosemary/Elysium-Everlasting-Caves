@@ -1,0 +1,64 @@
+onEvent('recipes', event => {
+    const nukedRecipes = [
+        'tconstruct:smeltery/seared/seared_bricks_crafting',
+        'tconstruct:smeltery/seared/seared_bricks_from_brick',
+        'minecraft:conduit',
+        'architects_palette:abyssaline',
+        'bloodmagic:sacrificial_dagger',
+        'bloodmagic:blood_altar',
+        'malum:spirit_altar',
+    ]
+
+    nukedRecipes.forEach((recipeToNuke) => {
+        event.remove({id:`${recipeToNuke}`})
+    });
+
+	event.remove({id:'botania:apothecary_default'})
+	event.remove({id:'botania:apothecary_mossy'})
+	event.remove({id:'botania:apothecary_mesa'})
+	event.remove({id:'botania:apothecary_taiga'})
+	event.remove({id:'botania:apothecary_desert'})
+	event.remove({id:'botania:apothecary_swamp'})
+	event.remove({id:'botania:apothecary_fungal'})
+	event.remove({id:'botania:apothecary_mountain'})
+	event.remove({id:'botania:apothecary_plains'})
+	event.remove({id:'botania:apothecary_forest'})
+	event.remove({id:'malum:hallowed_spirit_resonator'})
+	event.remove({id:'aiotbotania:livingwood_sword'})
+	event.remove({id:'aiotbotania:livingwood_axe'})
+	event.remove({id:'aiotbotania:livingwood_pickaxe'})
+	event.remove({id:'aiotbotania:livingwood_shovel'})
+	event.remove({id:'aiotbotania:livingwood_hoe'})
+	event.remove({id:'aiotbotania:livingwood_aiot'})
+	event.remove({id:'aiotbotania:livingwood_shears'})
+	event.remove({id:'botania:mana_pool'})
+	event.remove({id:'botania:mana_spreader'})
+	event.remove({id:'botania:redstone_spreader'})
+	event.remove({id:'botania:runic_altar'})
+	event.remove({id:'aiotbotania:livingrock_sword'})
+	event.remove({id:'aiotbotania:livingrock_axe'})
+	event.remove({id:'aiotbotania:livingrock_pickaxe'})
+	event.remove({id:'aiotbotania:livingrock_shovel'})
+	event.remove({id:'aiotbotania:livingrock_hoe'})
+	event.remove({id:'aiotbotania:livingrock_shears'})
+	event.remove({id:'aiotbotania:livingrock_aiot'})
+	event.remove({id:'botania:manasteel_sword'})
+	event.remove({id:'botania:manasteel_axe'})
+	event.remove({id:'botania:manasteel_pickaxe'})
+	event.remove({id:'botania:manasteel_shovel'})
+	event.remove({id:'botania:manasteel_hoe'})
+	event.remove({id:'botania:manasteel_shears'})
+	event.remove({id:'aiotbotania:manasteel_aiot'})
+	event.remove({id:'botania:glimmering_livingwood_log'})
+	event.remove({id:'architects_palette:algal_blend'})
+	event.remove({id:'forbidden_arcanus:mundabitur_dust'})
+    event.remove({input:'tconstruct:grout'})
+    event.remove({id:'architects_palette:smelting/algal_brick_from_algal_blend_smelting'})
+    event.remove({id:'tconstruct/smeltery/casting/seared/brick_composite'})
+    event.remove({id:'create:item_application/andesite_casing_from_log'})
+    event.remove({id:'create:item_application/andesite_casing_from_wood'})
+    event.remove({id:'create:item_application/brass_casing_from_log'})
+    event.remove({id:'create:item_application/brass_casing_from_wood'})
+    event.remove({id:'create:item_application/copper_casing_from_log'})
+    event.remove({id:'create:item_application/copper_casing_from_wood'})
+})

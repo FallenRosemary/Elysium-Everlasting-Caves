@@ -1,0 +1,10 @@
+{
+	id: "5DD9C76D07EDF15E"
+	group: "528E06A3ED2D1511"
+	order_index: 0
+	filename: "chapter_6_makeshift_command_block"
+	title: "5A: Makeshift Command Block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

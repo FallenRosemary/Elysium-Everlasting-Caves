@@ -1,0 +1,11 @@
+{
+	id: "5A79F43AA89E4331"
+	group: "60E605D5FD042217"
+	order_index: 0
+	filename: "ore_processing"
+	title: "Ore Processing"
+	icon: "kubejs:empty_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

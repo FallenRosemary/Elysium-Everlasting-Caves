@@ -1,0 +1,11 @@
+{
+	id: "14B02232861C4095"
+	group: "13A21DF4D619EFA0"
+	order_index: 0
+	filename: "chapter_2_hex_ashtipped_brass_screws"
+	title: "A1: Arcane DIY Kit"
+	icon: "kubejs:abyssaline_diy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

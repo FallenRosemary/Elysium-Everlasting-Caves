@@ -1,0 +1,105 @@
+{
+	id: "79182C3AE046CAA3"
+	group: "020AA71704108E7A"
+	order_index: 0
+	filename: "everlasting_caves"
+	title: "0A: Welcome To The Elysium"
+	icon: "kubejs:plank_flowering_azalea"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Elysium Everlasting Caves"
+			icon: "kubejs:plank_flowering_azalea"
+			x: 3.0d
+			y: -5.5d
+			id: "6780CA614CE78258"
+			tasks: [{
+				id: "1703B16F64A149E5"
+				type: "checkmark"
+				title: "Intro"
+			}]
+			rewards: [
+				{
+					id: "382767D8D34618BD"
+					type: "item"
+					item: "kubejs:andesite_lootbox"
+				}
+				{
+					id: "0AD0E49C6E82AB80"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+		{
+			icon: "ecologics:surface_moss"
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["6780CA614CE78258"]
+			id: "7CE6B745004AF296"
+			tasks: [{
+				id: "31CA48D02541E91A"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "04E6D09DC9DF2D20"
+					type: "item"
+					item: "kubejs:andesite_lootbox"
+				}
+				{
+					id: "297CA3C20A59DC54"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+		{
+			icon: "minecraft:campfire"
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["7CE6B745004AF296"]
+			id: "6A0127455DEE75C6"
+			tasks: [{
+				id: "20733DEA421FF2EC"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2CE4C6766D8D6790"
+					type: "item"
+					item: "kubejs:andesite_lootbox"
+				}
+				{
+					id: "0D607F6D0E4A87DD"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["6A0127455DEE75C6"]
+			id: "0D98A3A7B14EC853"
+			tasks: [{
+				id: "4783B41080CA781F"
+				type: "item"
+				item: "buildersdelight:lantern_5"
+			}]
+			rewards: [
+				{
+					id: "01FE5935A74D144C"
+					type: "item"
+					item: "kubejs:andesite_lootbox"
+				}
+				{
+					id: "3209D78FD51AF266"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+	]
+}
