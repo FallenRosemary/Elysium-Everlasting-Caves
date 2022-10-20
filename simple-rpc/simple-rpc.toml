@@ -116,7 +116,7 @@
 	#The first line of text under the app name
 	description = "Playing Lonely Mode..?"
 	#The second line of text under the app name
-	state = "Playing lonely mode"
+	state = ""
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "elysium_everlasting_caves"
 	#The text that gets displayed when the large image is hovered
