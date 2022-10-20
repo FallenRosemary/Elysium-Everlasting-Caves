@@ -1,5 +1,8 @@
 # Folders/wildcards
+/o_prof/
+/supportercache.json/
 /config/oculus.properties
+not-enough-crashes/
 /journeymap/
 /dumps/
 /crash-reports/
