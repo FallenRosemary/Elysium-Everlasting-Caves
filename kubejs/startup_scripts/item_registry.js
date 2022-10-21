@@ -2,9 +2,17 @@ onEvent('item.registry', event => {
 
 	// Metal Items
 	global.metals.forEach((metal) => {
-	global.metalMats.forEach((mat) => {
-        event.create(`${metal.id}_${mat.id}`).displayName(`${metal.name} ${mat.name}`).texture(`kubejs:unification/${metal.id}/${mat.id}`);
-    })});
+	global.processedMats.forEach((mat) => {
+		
+		event.create(`${metal.id}_${mat.id}`).displayName(`${metal.nameProcessed}${mat.name}`).texture(`kubejs:unification/${metal.id}/${mat.id}`);
+
+    })
+	global.rawMats.forEach((mat) => {
+		
+		event.create(`${metal.id}_${mat.id}`).displayName(`${mat.insertName}${metal.nameRaw}${mat.nameInsert}`).texture(`kubejs:unification/${metal.id}/${mat.id}`);
+
+    })
+    });
 
 	// Wood Items
 	global.woods.forEach((wood) => {
