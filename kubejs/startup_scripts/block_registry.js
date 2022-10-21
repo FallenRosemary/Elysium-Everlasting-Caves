@@ -1,4 +1,10 @@
 onEvent('block.registry', event => {
+    global.processedMats.forEach((mat) => {
+		
+		event.create(`${metal.id}_block_raw`).displayName(`Block Of${metal.nameProcessed}`).texture(`kubejs:unification/${metal.id}/block_raw`);
+		event.create(`${metal.id}_block`).displayName(`Block Of Raw${metal.nameRaw}`).texture(`kubejs:unification/${metal.id}/block`);
+
+    })
     event.create('andesite_lined_daub').displayName("Andesite Lined Daub")
     event.create('copper_lined_daub').displayName("Copper Lined Daub")
     event.create('brass_lined_sunmetal').displayName("Brass Lined Sunmetal")
