@@ -19,7 +19,7 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"adpother:polluted_water_still"
+			"block":"minecraft:air"
 		}]
 	})
 	event.custom({
@@ -162,7 +162,7 @@ onEvent('recipes', event => {
 		},
 		"post":[{
 			"type":"drop_item",
-			"item":"kubejs:seared_brick_blend",
+			"item":"kubejs:seared_blend",
 			"count": 4
 		},
 		{
