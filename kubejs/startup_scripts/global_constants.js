@@ -18,12 +18,6 @@ global.metals = [
         nameRaw:'Gold',
         outputSecond:'',
     },
-    {
-        id:'netherite_scrap',
-        nameProcessed:'Scraps',
-        nameRaw:'Ancient Debris',
-        outputSecond:'',
-    },
     // Blood Magic
     {
         id:'hellforged',
@@ -379,65 +373,41 @@ global.crystals = [
     },
 ]
 
-global.alloyMats = [
+global.processedMats = [
+        // <insertName><Undefined><nameInsert>
     {
-        id:'alloy',
-        name:'Alloy',
+        id:'ingot',
+        name:' Ingot',
+        nameSecond:' Alloy'
     },
     {
         id:'nugget',
-        name:'Nugget',
+        name:' Nugget',
     },
     {
         id:'plate',
-        name:'Plate',
+        name:' Plate',
     },
     {
         id:'gear',
-        name:'Gear',
-    },
-    {
-        id:'rod',
-        name:'Rod',
+        name:' Gear',
     },
     {
         id:'dust',
-        name:'Dust',
+        name:' Dust',
     },
 ]
 
-global.metalMats = [
-    {
-        id:'ingot',
-        name:'Ingot',
-    },
-    {
-        id:'nugget',
-        name:'Nugget',
-    },
-    {
-        id:'plate',
-        name:'Plate',
-    },
-    {
-        id:'gear',
-        name:'Gear',
-    },
-    {
-        id:'rod',
-        name:'Rod',
-    },
-    {
-        id:'dust',
-        name:'Dust',
-    },
+global.rawMats = [
     {
         id:'raw',
-        name:'Raw',
+        insertName:'Raw ',
+        nameInsert:' Ore',
     },
     {
         id:'crushed',
-        name:'Crushed',
+        insertName:'Crushed ',
+        nameInsert:' Ore',
     },
 ]
 
