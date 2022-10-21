@@ -1,5 +1,29 @@
 onEvent('recipes', event => {
 	// Recipes Add
-    event.campfireCooking('1x tconstruct:seared_brick','kubejs:seared_brick_blend')
-    event.campfireCooking('1x architects_palette:algal_brick','architects_palette:algal_blend')
+    const campfireCooking = [
+        {
+            input:'kubejs:seared_blend',
+            output:'1x tconstruct:seared_brick',
+        },
+        {
+            input:'architects_palette:algal_blend',
+            output:'1x architects_palette:algal_brick',
+        },
+        {
+            input:'kubejs:scorched_blend',
+            output:'1x tconstruct:scorched_brick',
+        },
+        {
+            input:'kubejs:blast_blend',
+            output:'kubejs:blast_brick',
+        },
+        {
+            input:'kubejs:coke_blend',
+            output:'1x kubejs:coke_brick',
+        },
+    ]
+
+    campfireCooking.forEach((campfire) => {
+        event.campfireCooking(`${campfire.output}`, `${campfire.input}`)
+    });
 })
