@@ -1,5 +1,11 @@
 onEvent('item.registry', event => {
 
+	// Metal Items
+	global.metals.forEach((metal) => {
+	global.metalMats.forEach((mat) => {
+        event.create(`${metal.id}_${mat.id}`).displayName(`${metal.name} ${mat.name}`).texture(`kubejs:unification/${metal.id}/${mat.id}`);
+    })});
+
 	// Wood Items
 	global.woods.forEach((wood) => {
         event.create(`plank_${wood.tagName}`).displayName(`${wood.displayName} Plank`).texture(`kubejs:item/planks/${wood.tagName}`);

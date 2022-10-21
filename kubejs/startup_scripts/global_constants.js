@@ -1,71 +1,444 @@
 global.metals = [
-    {tagName:'cobalt',    processedDisplayName:'Cobalt',    rawDisplayName:'Cobalt',              secondaryOutput:'',},
-    {tagName:'uranium',   processedDisplayName:'Uranium',   rawDisplayName:'Uranium',             secondaryOutput:'',},
-    {tagName:'copper',    processedDisplayName:'Copper',    rawDisplayName:'Copper',              secondaryOutput:'',},
-    {tagName:'lead',      processedDisplayName:'Lead',      rawDisplayName:'Lead',                secondaryOutput:'',},
-    {tagName:'nickel',    processedDisplayName:'Nickel',    rawDisplayName:'Nickel',              secondaryOutput:'',},
-    {tagName:'iron',      processedDisplayName:'Iron',      rawDisplayName:'Iron',                secondaryOutput:'',},
-    {tagName:'zinc',      processedDisplayName:'Zinc',      rawDisplayName:'Zinc',                secondaryOutput:'',},
-    {tagName:'osmium',    processedDisplayName:'Osmium',    rawDisplayName:'Osmium',              secondaryOutput:'',},
-    {tagName:'aluminum',  processedDisplayName:'Aluminum',  rawDisplayName:'Bauxite',             secondaryOutput:'',},
-    {tagName:'tin',       processedDisplayName:'Tin',       rawDisplayName:'Tin',                 secondaryOutput:'',},
-    {tagName:'silver',    processedDisplayName:'Silver',    rawDisplayName:'Silver',              secondaryOutput:'',},
-    {tagName:'iesnium',   processedDisplayName:'Iesnium',   rawDisplayName:'Otherwordly Mineral', secondaryOutput:'',},
-    {tagName:'gold',      processedDisplayName:'Gold',      rawDisplayName:'Gold',                secondaryOutput:'',},
+    // Vanila
+    {
+        id:'iron',
+        nameProcessed:'Iron',
+        nameRaw:'Iron',
+        outputSecond:'',
+    },
+    {
+        id:'copper',
+        nameProcessed:'Copper',
+        nameRaw:'Copper',
+        outputSecond:'',
+    },
+    {
+        id:'gold',
+        nameProcessed:'Gold',
+        nameRaw:'Gold',
+        outputSecond:'',
+    },
+    {
+        id:'netherite_scrap',
+        nameProcessed:'Scraps',
+        nameRaw:'Ancient Debris',
+        outputSecond:'',
+    },
+    // Blood Magic
+    {
+        id:'hellforged',
+        nameProcessed:'Hellforged',
+        nameRaw:'Demonite',
+        outputSecond:'',
+    },
+    // Create
+    {
+        id:'zinc',
+        nameProcessed:'Zinc',
+        nameRaw:'Zinc',
+        outputSecond:'',
+    },
+    // Immersive Engineering
+    {
+        id:'aluminum',
+        nameProcessed:'Aluminium',
+        nameRaw:'Bauxite',
+        outputSecond:'',
+    },
+    {
+        id:'lead',
+        nameProcessed:'Lead',
+        nameRaw:'Lead',
+        outputSecond:'',
+    },
+    {
+        id:'nickel',
+        nameProcessed:'Nickel',
+        nameRaw:'Nickel',
+        outputSecond:'',
+    },
+    {
+        id:'uranium',
+        nameProcessed:'Uranium',
+        nameRaw:'Uranium',
+        outputSecond:'',
+    },
+    // Occultism
+    {
+        id:'iesnium',
+        nameProcessed:'Iesnium',
+        nameRaw:'Iesnium',
+        outputSecond:'',
+    },
+    // Thermal
+    {
+        id:'tin',
+        nameProcessed:'Tin',
+        nameRaw:'Tin',
+        outputSecond:'',
+    },
+    // Tinkers
+    {
+        id:'cobalt',
+        nameProcessed:'Cobalt',
+        nameRaw:'Cobalt',
+        outputSecond:'',
+    },
 ]
 
 global.alloys = [
-    {tagName:'brass',                  processedDisplayName:'Brass',},
-    {tagName:'arcane_gold',            processedDisplayName:'Deorum',},
-    {tagName:'obsidian',               processedDisplayName:'Obsidian',},
-    {tagName:'constantan',             processedDisplayName:'Constantan',},
-    {tagName:'electrum',               processedDisplayName:'Electrum',},
-    {tagName:'hop_graphite',           processedDisplayName:'HOP Graphite',},
-    {tagName:'steel',                  processedDisplayName:'Steel',},
-    {tagName:'bronze',                 processedDisplayName:'Bronze',},
-    {tagName:'netherite',              processedDisplayName:'Netherite',},
-    {tagName:'compressed_iron',        processedDisplayName:'Compressed Iron',},
-    {tagName:'andesite',               processedDisplayName:'Andesite',},
+    // Minecraft
+    {
+        id:'netherite',
+        name:'Netherite',
+    },
+    // Blood Smeltery
+    {
+        id:'blood_brass',
+        name:'Blood Brass',
+    },
+    // Botania
+    {
+        id:'manasteel',
+        name:'Manasteel',
+    },
+    {
+        id:'terrasteel',
+        name:'Terrasteel',
+    },
+    {
+        id:'elementium',
+        name:'elementium',
+    },
+    // Create
+    {
+        id:'brass',
+        name:'Brass',
+    },
+    {
+        id:'andesite',
+        name:'Andesite',
+    },
+    {
+        id:'cast_iron',
+        name:'Cast Iron',
+    },
+    // Forbidden & Arcanus
+    {
+        id:'arcane_gold',
+        name:'Arcane Gold',
+    },
+    {
+        id:'obsidian',
+        name:'Obsidian',
+    },
+    // Immersive Engineering
+    {
+        id:'hop_graphite',
+        name:'HOP Graphite',
+    },
+    {
+        id:'constantan',
+        name:'Constantan',
+    },
+    {
+        id:'electrum',
+        name:'Electrum',
+    },
+    {
+        id:'steel',
+        name:'Steel',
+    },
+    // Tinkers
+    {
+        id:'fairy',
+        name:'Fairy',
+    },
+    {
+        id:'blazing_copper',
+        name:'Blazing Copper',
+    },
+    {
+        id:'duralumin',
+        name:'Duralumin',
+    },
+    {
+        id:'electrical_copper',
+        name:'Electrical Copper',
+    },
+    {
+        id:'felsteel',
+        name:'Felsteel',
+    },
+    {
+        id:'gausum',
+        name:'Gausum',
+    },
+    {
+        id:'lavium',
+        name:'Lavium',
+    },
+    {
+        id:'qivium',
+        name:'Qivium',
+    },
+    {
+        id:'chorus_metal',
+        name:'Chorus Metal',
+    },
+    {
+        id:'durasteel',
+        name:'Durasteel',
+    },
+    {
+        id:'crusteel',
+        name:'Crusteel',
+    },
+    {
+        id:'yokel',
+        name:'Yokel',
+    },
+    {
+        id:'wavy',
+        name:'Wavy',
+    },
+    {
+        id:'baolian',
+        name:'Baolian',
+    },
+    {
+        id:'galu',
+        name:'Galu',
+    },
+    {
+        id:'magma_steel',
+        name:'Magma Steel',
+    },
+    {
+        id:'cyber_steel',
+        name:'Cyber Steel',
+    },
+    {
+        id:'slimesteel',
+        name:'Slimesteel',
+    },
+    {
+        id:'amethyst_bronze',
+        name:'Amethyst Bronze',
+    },
+    {
+        id:'rose_gold',
+        name:'Rose Gold',
+    },
+    {
+        id:'pig_iron',
+        name:'Pig Iron',
+    },
+    {
+        id:'queens_slime',
+        name:`Queen's Slime`,
+    },
+    {
+        id:'manyullyn',
+        name:'Manyullyn',
+    },
+    {
+        id:'hepatizon',
+        name:'Hepatizon',
+    },
+    {
+        id:'kepu',
+        name:'Kepu',
+    },
+    // Pneumaticcraft
+    {
+        id:'iron_compressed',
+        name:'Compressed Iron',
+    },
+    // Redstone Arsenal
+    {
+        id:'flux',
+        name:'Flux',
+    },
+    // Thermal
+    {
+        id:'bronze',
+        name:'Bronze',
+    },
+    {
+        id:'invar',
+        name:'Invar',
+    },
+    {
+        id:'signalum',
+        name:'Signalum',
+    },
+    {
+        id:'lumium',
+        name:'Lumium',
+    },
+    {
+        id:'enderium',
+        name:'Enderium',
+    },
+    // Elysia
+    {
+        id:'stainless_steel',
+        name:'Stainless Steel',
+    },
+    {
+        id:'silver',
+        name:'Silver',
+    },
 ]
 
 global.gems = [
-    {tagName:'arcane_crystal', processedDisplayName:'Arcane Crystal',},
-    {tagName:'fluorite',       processedDisplayName:'Fluorite',},
-    {tagName:'quartz',         processedDisplayName:'Nether Quartz',},
-    {tagName:'lapis_lazuli',   processedDisplayName:'Lapis Lazuli',},
-    {tagName:'emerald',        processedDisplayName:'Emerald',},
-    {tagName:'diamond',        processedDisplayName:'Diamond',},
-    {tagName:'rune',           processedDisplayName:'Rune',},
+    // Minecraft
+    {
+        id:'diamond',
+        name:'Diamond',
+    },
+    {
+        id:'emerald',
+        name:'Emerald',
+    },
+    {
+        id:'lapis_lazuli',
+        name:'Lapis Lazuli',
+    },
+    {
+        id:'natural_quartz',
+        name:'Natural Quartz',
+    },
+    {
+        id:'diamond',
+        name:'Diamond',
+    },
+    // AE2
+    {
+        id:'certus_quartz',
+        name:'Certus Quartz',
+    },
+    // Forbidden & Arcanus
+    {
+        id:'arcane',
+        name:'Arcane',
+    },
+    {
+        id:'rune',
+        name:'Runestone',
+    },
+    // Malum
+    {
+        id:'blazing_quartz',
+        name:'Blazing Quartz',
+    },
+    {
+        id:'soulstone',
+        name:'Soulstone',
+    },
+    // Thermal
+    {
+        id:'apatite',
+        name:'Apatite',
+    },
+    {
+        id:'cinnabar',
+        name:'Cinnabar',
+    },
+    {
+        id:'niter',
+        name:'Saltpeter',
+    },
+    {
+        id:'reforged',
+        name:'Reforged',
+    },
 ]
 
-global.gemsNonGeodes = [
-    {tagName:'certus_quartz',         processedDisplayName:'Certus Quartz',},
-    {tagName:'spirit_attuned',        processedDisplayName:'Spirit Attuned Gemstone',},
-    {tagName:'source',                processedDisplayName:'Source Gemstone',},
-    {tagName:'fluix',                 processedDisplayName:'Fluix Crystal',},
-    {tagName:'charged_certus_quartz', processedDisplayName:'Charged Certus Quartz',},
-    {tagName:'prismarine',            processedDisplayName:'Prismarine Crystals',},
-    {tagName:'amethyst_shard',        processedDisplayName:'Amethyst Shard',},
+global.crystals = [
+    {
+        id:'charged_certus_quartz',
+        name:'Charged Certus Quartz',
+    },
+    {
+        id:'fluix',
+        name:'Fluix',
+    },
+    {
+        id:'mana',
+        name:'mana',
+    },
+    {
+        id:'dragonstone',
+        name:'Dragonstone',
+    },
+    {
+        id:'spirit_attuned',
+        name:'spirit Attuned',
+    },
 ]
 
-global.processedMaterials = [
-    {tagName:'ingot',  preDisplayName:'',        reDisplayName:' Ingot',},
-    {tagName:'nugget', preDisplayName:'',        reDisplayName:' Nugget',},
-    {tagName:'plate',  preDisplayName:'',        reDisplayName:' Plate',},
-    {tagName:'gear',   preDisplayName:'',        reDisplayName:' Gear',},
-    {tagName:'rod',    preDisplayName:'',        reDisplayName:' Rod',},
-    {tagName:'wire',   preDisplayName:'',        reDisplayName:' Coil',},
-    {tagName:'ground', preDisplayName:'Ground ', reDisplayName:'',},
+global.alloyMats = [
+    {
+        id:'alloy',
+        name:'Alloy',
+    },
+    {
+        id:'nugget',
+        name:'Nugget',
+    },
+    {
+        id:'plate',
+        name:'Plate',
+    },
+    {
+        id:'gear',
+        name:'Gear',
+    },
+    {
+        id:'rod',
+        name:'Rod',
+    },
+    {
+        id:'dust',
+        name:'Dust',
+    },
 ]
 
-global.rawMetalMaterials = [
-    {tagName:'dust',       preDisplayName:'',         reDisplayName:' Dust',},
-    {tagName:'raw',        preDisplayName:'Raw ',     reDisplayName:' Ore',},
-    {tagName:'clump',      preDisplayName:'',         reDisplayName:' Clump',},
-    {tagName:'crystal',    preDisplayName:'',         reDisplayName:' Crystal',},
-    {tagName:'dirty_dust', preDisplayName:'Dirty ',   reDisplayName:' Dust',},
-    {tagName:'shard',      preDisplayName:'',         reDisplayName:' Shard',},
-    {tagName:'crushed',    preDisplayName:'Crushed ', reDisplayName:' Ore',},
+global.metalMats = [
+    {
+        id:'ingot',
+        name:'Ingot',
+    },
+    {
+        id:'nugget',
+        name:'Nugget',
+    },
+    {
+        id:'plate',
+        name:'Plate',
+    },
+    {
+        id:'gear',
+        name:'Gear',
+    },
+    {
+        id:'rod',
+        name:'Rod',
+    },
+    {
+        id:'dust',
+        name:'Dust',
+    },
+    {
+        id:'raw',
+        name:'Raw',
+    },
+    {
+        id:'crushed',
+        name:'Crushed',
+    },
 ]
 
 global.rawGemMaterials = [
