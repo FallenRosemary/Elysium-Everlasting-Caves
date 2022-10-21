@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-	// Recipes Add
+    
     const campfireCooking = [
         {
             input:'kubejs:seared_blend',
