@@ -1,8 +1,10 @@
 onEvent('block.registry', event => {
-    global.processedMats.forEach((mat) => {
+    global.metals.forEach((metal) => {
 		
-		event.create(`${metal.id}_block_raw`).displayName(`Block Of${metal.nameProcessed}`).texture(`kubejs:unification/${metal.id}/block_raw`);
-		event.create(`${metal.id}_block`).displayName(`Block Of Raw${metal.nameRaw}`).texture(`kubejs:unification/${metal.id}/block`);
+		event.create(`${metal.id}_block`).displayName(`Block Of ${metal.nameProcessed}`).textureAll(`kubejs:unification/${metal.id}/block`);
+		event.create(`${metal.id}_block_raw`).displayName(`Block Of Raw ${metal.nameRaw}`).textureAll(`kubejs:unification/${metal.id}/block_raw`);
+        event.create(`${metal.id}_ore_stone`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/stone`);
+        event.create(`${metal.id}_ore_deepslate`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/deepslate`);
 
     })
     event.create('andesite_lined_daub').displayName("Andesite Lined Daub")
