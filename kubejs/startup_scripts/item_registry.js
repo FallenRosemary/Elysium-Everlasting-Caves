@@ -14,10 +14,6 @@ onEvent('item.registry', event => {
     })
     });
 
-	// Wood Items
-	global.woods.forEach((wood) => {
-        event.create(`plank_${wood.tagName}`).displayName(`${wood.displayName} Plank`).texture(`kubejs:item/planks/${wood.tagName}`);
-    });
 
 	// Soil Items
 	global.soils.forEach((soil) => {
@@ -27,6 +23,149 @@ onEvent('item.registry', event => {
 	// Rock Items
 	global.rocks.forEach((rock) => {
 		event.create(`brick_${rock.tagName}`).displayName(`${rock.displayName} Brick`).texture(`kubejs:item/bricks/${rock.tagName}`);
+    });
+
+	const woods = [
+		{
+			id:`oak`,
+			name:`Oak`,
+		},
+		{
+			id:`spruce`,
+			name:`Spruce`,
+		},
+		{
+			id:`birch`,
+			name:`Birch`,
+		},
+		{
+			id:`jungle`,
+			name:`Jungle`,
+		},
+		{
+			id:`acacia`,
+			name:`Acacia`,
+		},
+		{
+			id:`dark_oak`,
+			name:`Dark Oak`,
+		},
+		{
+			id:`livingwood`,
+			name:`Livingwood`,
+		},
+		{
+			id:`dreamwood`,
+			name:`Dreamwood`,
+		},
+		{
+			id:`shimmerwood`,
+			name:`Shimmerwood`,
+		},
+		{
+			id:`petrified`,
+			name:`Petrified`,
+		},
+		{
+			id:`runewood`,
+			name:`Runewood`,
+		},
+		{
+			id:`soulwood`,
+			name:`Soulwood`,
+		},
+		{
+			id:`blossom`,
+			name:`Blossom`,
+		},
+		{
+			id:`azalea`,
+			name:`Azalea`,
+		},
+		{
+			id:`flowering_azalea`,
+			name:`Flowering Azalea`,
+		},
+		{
+			id:`lavawood`,
+			name:`Lavawood`,
+		},
+		{
+			id:`blazewood`,
+			name:`Blazewood`,
+		},
+		{
+			id:`nahuatl`,
+			name:`Nahuatl`,
+		},
+		{
+			id:`greenheart`,
+			name:`Greenheart`,
+		},
+		{
+			id:`skyroot`,
+			name:`Skyroot`,
+		},
+		{
+			id:`bloodshroom`,
+			name:`Bloodshroom`,
+		},
+		{
+			id:`twisted`,
+			name:`Twisted`,
+		},
+		{
+			id:`stripped_bamboo`,
+			name:`Stripped Bamboo`,
+		},
+		{
+			id:`fiberboard`,
+			name:`Fiberboard`,
+		},
+		{
+			id:`treated_wood`,
+			name:`Treated Wood`,
+		},
+		{
+			id:`walnut`,
+			name:`Walnut`,
+		},
+		{
+			id:`fungyss`,
+			name:`Fungyss`,
+		},
+		{
+			id:`cherrywood`,
+			name:`Cherrywood`,
+		},
+		{
+			id:`mysterywood`,
+			name:`Mysterywood`,
+		},
+		{
+			id:`edelwood`,
+			name:`Edelwood`,
+		},
+		{
+			id:`arcane_edelwood`,
+			name:`Arcane Edelwood`,
+		},
+		{
+			id:`jabuticaba`,
+			name:`Jabuticaba`,
+		},
+		{
+			id:`ramboutan`,
+			name:`Rambutan`,
+		},
+		{
+			id:`coconut`,
+			name:`Coconut`,
+		},
+	]
+	
+	woods.forEach((wood) => {
+        event.create(`plank_${wood.id}`).displayName(`${wood.name} Plank`).texture(`kubejs:item/planks/${wood.id}`);
     });
 
 	const kits = [

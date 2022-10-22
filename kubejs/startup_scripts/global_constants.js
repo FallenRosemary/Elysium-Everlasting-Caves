@@ -4,79 +4,91 @@ global.metals = [
         id:'iron',
         nameProcessed:'Iron',
         nameRaw:'Iron',
-        outputSecond:'',
+        outputSecond:'nickel',
+        pool:'1, 2',
     },
     {
         id:'copper',
         nameProcessed:'Copper',
         nameRaw:'Copper',
-        outputSecond:'',
+        outputSecond:'gold',
+        pool:'4, 6',
     },
     {
         id:'gold',
         nameProcessed:'Gold',
         nameRaw:'Gold',
-        outputSecond:'',
+        outputSecond:'copper',
+        pool:'2, 3',
     },
     // Blood Magic
     {
         id:'hellforged',
         nameProcessed:'Hellforged',
         nameRaw:'Demonite',
-        outputSecond:'',
+        outputSecond:'iesnium',
+        pool:'6, 8',
     },
     // Create
     {
         id:'zinc',
         nameProcessed:'Zinc',
         nameRaw:'Zinc',
-        outputSecond:'',
+        outputSecond:'aluminum',
+        pool:'4, 6',
     },
     // Immersive Engineering
     {
         id:'aluminum',
         nameProcessed:'Aluminium',
         nameRaw:'Bauxite',
-        outputSecond:'',
+        outputSecond:'iron',
+        pool:'4, 6',
     },
     {
         id:'lead',
         nameProcessed:'Lead',
         nameRaw:'Lead',
-        outputSecond:'',
+        outputSecond:'uranium',
+        pool:'2, 3',
     },
     {
         id:'nickel',
         nameProcessed:'Nickel',
         nameRaw:'Nickel',
-        outputSecond:'',
+        outputSecond:'copper',
+        pool:'1, 2',
     },
     {
         id:'uranium',
         nameProcessed:'Uranium',
         nameRaw:'Uranium',
-        outputSecond:'',
+        outputSecond:'lead',
+        pool:'1, 2',
     },
     // Occultism
     {
         id:'iesnium',
         nameProcessed:'Iesnium',
         nameRaw:'Iesnium',
-        outputSecond:'',
+        outputSecond:'hellforged',
+        pool:'4, 6',
     },
     // Thermal
     {
         id:'tin',
         nameProcessed:'Tin',
         nameRaw:'Tin',
-        outputSecond:'',
+        outputSecond:'iron',
+        pool:'3, 5',
     },
     // Tinkers
     {
         id:'cobalt',
         nameProcessed:'Cobalt',
         nameRaw:'Cobalt',
-        outputSecond:'',
+        outputSecond:'lead',
+        pool:'1, 2',
     },
 ]
 
@@ -471,43 +483,6 @@ global.rocks = [
         displayName:`Abyssaline`,
         sourcePrefix:`architects_palette`,
     },
-]
-
-global.woods = [
-    {tagName:'oak',              displayName:'Oak',                 hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'spruce',           displayName:'Spruce',              hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'birch',            displayName:'Birch',               hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'jungle',           displayName:'Jungle',              hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'acacia',           displayName:'Acacia',              hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'dark_oak',         displayName:'Dark oak',            hasLog:'true',  sourcePrefix:'minecraft'},//
-    {tagName:'livingwood',       displayName:'Livingwood',          hasLog:'true',  sourcePrefix:'botania'},//
-    {tagName:'dreamwood',        displayName:'Dreamwood',           hasLog:'true',  sourcePrefix:'botania'},//
-    {tagName:'shimmerwood',      displayName:'Shimmerwood',         hasLog:'false', sourcePrefix:'botania'},//
-    {tagName:'petrified',        displayName:'Petrified Oak',       hasLog:'true',  sourcePrefix:'darkerdepths'},//
-    {tagName:'runewood',         displayName:'Runewood',            hasLog:'true',  sourcePrefix:'malum'},//
-    {tagName:'soulwood',         displayName:'Soulwood',            hasLog:'true',  sourcePrefix:'malum'},//
-    {tagName:'blossom',          displayName:'Blossom',             hasLog:'true',  sourcePrefix:'quark'},//
-    {tagName:'azalea',           displayName:'Azalea',              hasLog:'true',  sourcePrefix:'quark'},//
-    {tagName:'flowering_azalea', displayName:'Flowering Azalea',    hasLog:'true',  sourcePrefix:'ecologics'},//
-    {tagName:'lavawood',         displayName:'Lavawood',            hasLog:'false', sourcePrefix:'tconstruct'},//
-    {tagName:'blazewood',        displayName:'Blazewood',           hasLog:'false', sourcePrefix:'tconstruct'},//
-    {tagName:'nahuatl',          displayName:'Nahuatl',             hasLog:'false', sourcePrefix:'tconstruct'},//
-    {tagName:'greenheart',       displayName:'Greenheart',          hasLog:'true',  sourcePrefix:'tconstruct'},//
-    {tagName:'skyroot',          displayName:'Skyroot',             hasLog:'true',  sourcePrefix:'tconstruct'},//
-    {tagName:'bloodshroom',      displayName:'Bloodshroom',         hasLog:'true',  sourcePrefix:'tconstruct'},//
-    {tagName:'twisted',          displayName:'Twisted',             hasLog:'true',  sourcePrefix:'architects_palette'},
-    {tagName:'stripped_bamboo',  displayName:'Stripped Bamboo',     hasLog:'false', sourcePrefix:'twigs'},
-    {tagName:'fiberboard',       displayName:'Fiberboard',          hasLog:'false', sourcePrefix:'immersiveengineering'},
-    {tagName:'treated_wood',     displayName:'Treated Wood',        hasLog:'false', sourcePrefix:'immersiveengineering'},
-    {tagName:'walnut',           displayName:'Walnut',              hasLog:'true',  sourcePrefix:'caupona'},
-    {tagName:'fungyss',          displayName:'Fungyss',             hasLog:'false', sourcePrefix:'forbidden_arcanus'},//
-    {tagName:'cherrywood',       displayName:'Cherrywood',          hasLog:'true',  sourcePrefix:'forbidden_arcanus'},//
-    {tagName:'mysterywood',      displayName:'Mysterywood',         hasLog:'true',  sourcePrefix:'forbidden_arcanus'},//
-    {tagName:'edelwood',         displayName:'Edelwood',            hasLog:'true',  sourcePrefix:'forbidden_arcanus'},//
-    {tagName:'arcane_edelwood',  displayName:'Arcane Edelwood',     hasLog:'false', sourcePrefix:'forbidden_arcanus'},//
-    {tagName:'jabuticaba',       displayName:'Jabuticaba',          hasLog:'true',  sourcePrefix:'nethers_exoticism'},//
-    {tagName:'ramboutan',        displayName:'Rambutan',            hasLog:'true',  sourcePrefix:'nethers_exoticism'},//
-    {tagName:'coconut',          displayName:'Coconut',             hasLog:'true',  sourcePrefix:'ecologics'},//
 ]
 
 global.soils = [
