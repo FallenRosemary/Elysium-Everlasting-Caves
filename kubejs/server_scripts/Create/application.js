@@ -12,9 +12,9 @@ onEvent('recipes', event => {
       result:'kubejs:brass_lined_sunmetal',
     },
     {
-      input:'supplementaries:daub',
+      input:'tconstruct:grout',
       applicator:'minecraft:copper_ingot',
-      result:'kubejs:copper_lined_daub',
+      result:'kubejs:copper_lined_grout',
     },
   ]
 
