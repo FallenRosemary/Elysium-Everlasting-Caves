@@ -1,7 +1,6 @@
 onEvent('recipes', event => {
-	// Recipes Add Shaped
+
 	event.shaped('1x bloodmagic:altar',[
-		'   ',
 		'BCB',
 		'BDB',
 	],{
@@ -39,12 +38,16 @@ onEvent('recipes', event => {
 		D: 'kubejs:brass_lined_sunmetal'
 	})
 	event.shaped('4x kubejs:sunmetal',[
-		'AAB',
-		'AAB',
-		'BBB'
+		'AA ',
+		'AA '
 	],{
 		A: 'architects_palette:sunmetal_blend',
-		B: 'minecraft:air',
+	})
+	event.shaped('4x tconstruct:grout',[
+		'AA ',
+		'AA '
+	],{
+		A: 'kubejs:seared_blend',
 	})
 	event.shaped('2x kubejs:andesite_diy',[
 		'ABA',
@@ -97,7 +100,7 @@ onEvent('recipes', event => {
 		A: '#forge:plates/cast_iron',
 		B: 'kubejs:copper_piping',
 		C: 'kubejs:screw_basic',
-		D: 'kubejs:copper_lined_daub',
+		D: 'kubejs:copper_lined_grout',
 		E: 'thermal:cured_rubber'
 	})
 	event.shaped('4x kubejs:screw_basic',[
@@ -123,7 +126,7 @@ onEvent('recipes', event => {
 	],{
 		A: 'kubejs:screw_basic',
 		B: '#forge:plates/cast_iron',
-		D: 'kubejs:copper_lined_daub'
+		D: 'kubejs:copper_lined_grout'
 	})
 	event.shaped('2x kubejs:abyssaline_diy',[
 		'ABA',
