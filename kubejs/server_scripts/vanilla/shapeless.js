@@ -11,6 +11,7 @@ onEvent('recipes', event => {
         '#forge:rods/wooden',
         'farmersdelight:straw'
     ])
+    
     event.shapeless('2x thermal:sulfur_dust', [
         'kubejs:limestone_flux',
         '#forge:gunpowder'

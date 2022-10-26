@@ -38,14 +38,14 @@ onEvent('recipes', event => {
 		D: 'kubejs:brass_lined_sunmetal'
 	})
 	event.shaped('4x kubejs:sunmetal',[
-		'AA ',
-		'AA '
+		'AA',
+		'AA'
 	],{
 		A: 'architects_palette:sunmetal_blend',
 	})
 	event.shaped('4x tconstruct:grout',[
-		'AA ',
-		'AA '
+		'AA',
+		'AA'
 	],{
 		A: 'kubejs:seared_blend',
 	})
@@ -86,11 +86,10 @@ onEvent('recipes', event => {
 	event.shaped('2x kubejs:copper_piping',[
 		' B ',
 		'CDC',
-		'   '
 	],{
 		B: '#forge:gears/bronze',
-		C: '#forge:plates/copper',
-		D: '#forge:ingots/copper',
+		C: 'kubejs:copper_plate',
+		D: 'kubejs:copper_ingot',
 	})
 	event.shaped('2x kubejs:copper_diy',[
 		'ABA',
@@ -104,17 +103,15 @@ onEvent('recipes', event => {
 		E: 'thermal:cured_rubber'
 	})
 	event.shaped('4x kubejs:screw_basic',[
-		'A  ',
-		'B  ',
-		'   '
+		'A',
+		'B',
 	],{
-		A: '#forge:plates/iron',
-		B: '#forge:rods/iron'
+		A: 'kubejs:iron_plate',
+		B: 'kubejs:iron_nugget'
 	})
 	event.shaped('8x kubejs:screw_basic',[
-		'A  ',
-		'B  ',
-		'   '
+		'A',
+		'B',
 	],{
 		A: '#forge:plates/steel',
 		B: '#forge:rods/steel'
@@ -140,14 +137,148 @@ onEvent('recipes', event => {
 		E: 'minecraft:conduit'
 	})
 	event.shaped('2x kubejs:weird_mechanism',[
-		' A ',
-		' B ',
-		' C '
+		'A',
+		'B',
+		'C'
 	],{
 		A: 'create:electron_tube',
 		B: '#forge:dusts/mana',
 		C: 'create:precision_mechanism',
 	})
-	// Recipes Add Shapeless
+	event.shaped('minecraft:wooden_pickaxe',[
+		'AA',
+		'BA',
+	],{
+		A: '#forge:flint',
+		B: 'kubejs:wrapped_stick'
+	})
+	event.shaped('minecraft:wooden_axe',[
+		'AA',
+		'AB',
+	],{
+		A: '#forge:flint',
+		B: 'kubejs:wrapped_stick'
+	})
+	event.shaped('minecraft:wooden_hoe',[
+		'AA',
+		' B',
+	],{
+		A: '#forge:flint',
+		B: 'kubejs:wrapped_stick'
+	})
+	event.shaped('minecraft:crafting_table',[
+		'AB',
+		'BC',
+	],{
+		A: 'minecraft:moss_block',
+		B: '#elysia:plank/all',
+		C: 'kubejs:screw_basic',
+	})
+	event.shaped('minecraft:campfire',[
+		' A ',
+		'ABA',
+		'CCC',
+	],{
+		A: 'farmersdelight:straw',
+		B: '#minecraft:coals',
+		C: '#elysia:plank/all',
+	})
+	event.shaped('4x hardcore_torches:unlit_torch',[
+		'A',
+		'B',
+	],{
+		A: 'farmersdelight:straw',
+		B: '#forge:rods/wooden'
+	})
+	event.shaped('8x hardcore_torches:unlit_torch',[
+		'A',
+		'B',
+	],{
+		A: '#minecraft:coals',
+		B: '#forge:rods/wooden'
+	})
+	event.shaped('16x hardcore_torches:unlit_torch',[
+		'A',
+		'B',
+	],{
+		A: '#elysia:tallow/all',
+		B: '#forge:rods/wooden'
+	})
+	event.shaped('thermal:saw_blade',[
+		' A ',
+		'ABA',
+		' A '
+	],{
+		A: 'kubejs:iron_plate',
+		B: 'kubejs:copper_gear'
+	})
+	event.shaped('minecraft:stonecutter',[
+		'ABC',
+		'DED'
+	],{
+		A: 'kubejs:mortar',
+		B: 'thermal:saw_blade',
+		C: 'kubejs:screw_basic',
+		D: '#elysia:plank/all',
+		E: '#elysia:brick/all'
+	})
+	event.shaped('minecraft:green_bed',[
+		'AAA',
+		'BCB'
+	],{
+		A: 'quark:moss_paste',
+		B: '#elysia:plank/all',
+		C: 'kubejs:screw_basic'
+	})
+	event.shaped('minecraft:lightning_rod',[
+		'A',
+		'A'
+	],{
+		A: 'kubejs:copper_nugget'
+	})
+	event.shaped('immersiveengineering:hammer',[
+		'AB',
+		'CA'
+	],{
+		A: 'darkerdepths:amber',
+		B: '#forge:dusts/ash',
+		C: 'kubejs:wrapped_stick'
+	})
+	event.shaped('tconstruct:seared_heater',[
+		'ABA',
+		'BCB',
+		'ABA'
+	],{
+		A: 'tconstruct:seared_brick',
+		B: 'kubejs:mortar',
+		C: 'minecraft:carved_pumpkin'
+	})
+	event.shaped('tconstruct:seared_melter',[
+		'A A',
+		'BAB'
+	],{
+		A: 'tconstruct:seared_brick',
+		B: 'kubejs:mortar'
+	})
+	event.shaped('4x minecraft:tnt',[
+		'ABA',
+		'CDC',
+		'ABA'
+	],{
+		A: '#elysia:plank/all',
+		B: 'kubejs:pile_sand',
+		C: 'kubejs:screw_basic',
+		D: 'minecraft:gunpowder',
+	})
+	event.shaped('8x minecraft:tnt',[
+		'ABA',
+		'CDC',
+		'ABA'
+	],{
+		A: '#elysia:plank/all',
+		B: 'kubejs:pile_sand',
+		C: 'kubejs:screw_basic',
+		D: 'kubejs:glowberry_paste',
+	})
 })
 

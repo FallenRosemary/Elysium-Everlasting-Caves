@@ -19,7 +19,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"minecraft:air"
+			"block":"minecraft:air",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -38,25 +39,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"supplementaries:ash"
-		}]
-	})
-	event.custom({
-		"type": "lychee:item_inside",
-		"item_in":[
-			{"item":"minecraft:andesite"},
-		],
-		"block_in":{
-			"blocks":["occultism:spirit_fire"]
-		},
-		"post":[{
-			"type":"drop_item",
-			"item":"kubejs:andesite_ashes",
-			"count": 4
-		},
-		{
-			"type":"place",
-			"block":"supplementaries:ash"
+			"block":"supplementaries:ash",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -74,13 +58,14 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"supplementaries:ash"
+			"block":"supplementaries:ash",
+			"hide": true
 		}]
 	})
 	event.custom({
 		"type": "lychee:item_inside",
 		"item_in":[
-			{"tag":"forge:gems/source"},
+			{"tag":"forge:gems/diamond"},
 		],
 		"block_in":{
 			"blocks":["occultism:spirit_fire"]
@@ -92,7 +77,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"supplementaries:ash"
+			"block":"supplementaries:ash",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -110,7 +96,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"supplementaries:ash"
+			"block":"supplementaries:ash",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -128,7 +115,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"supplementaries:ash"
+			"block":"supplementaries:ash",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -147,7 +135,8 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"minecraft:air"
+			"block":"minecraft:air",
+			"hide": true
 		}]
 	})
 	event.custom({
@@ -167,7 +156,67 @@ onEvent('recipes', event => {
 		},
 		{
 			"type":"place",
-			"block":"minecraft:air"
+			"block":"minecraft:air",
+			"hide": true
 		}]
 	})
+	event.custom({
+        "type": "lychee:item_inside",
+    "item_in": {
+        "item": "occultism:datura"
+    },
+	"block_in":{
+		"blocks":["minecraft:fire"]
+	},
+    "post": {
+        "type": "place",
+        "block": "occultism:spirit_fire"
+    }
+    })
+	event.custom({
+        "type": "lychee:item_inside",
+        "item_in":{
+            "item":"create:limestone"
+        },
+		"block_in":{
+			"blocks":["minecraft:lightning_rod"]
+		},
+        "post":[{
+            "type":"drop_item",
+            "item":"kubejs:limestone_flux",
+            "count": 10
+        },{
+            "type":"drop_item",
+            "item":"kubejs:limestone_flux",
+            "count": 4,
+            "contextual": {
+                "type": "chance",
+                "chance": 0.5
+            }
+        },{
+			"type":"execute",
+			"command":"/summon minecraft:lightning_bolt ~ ~ ~",
+			"hide":true
+		}]
+    })
+	event.custom({
+		"type": "lychee:item_inside",
+			"item_in":[
+				{"item":"minecraft:clay_ball"},
+				{"tag":"forge:dusts/ash"},
+				{"item":"thermal:phytogro"},
+			],
+			"block_in":{
+				"blocks":["tinkers_reforged:molten_kelp_fluid"],
+			},"post":[{
+				"type":"drop_item",
+				"item":"architects_palette:algal_blend",
+				"count": 4
+			},{
+				"type":"place",
+				"block":"minecraft:air",
+				"hide": true
+			}]
+	})
+
 })
