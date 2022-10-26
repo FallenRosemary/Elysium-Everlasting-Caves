@@ -4,7 +4,7 @@ adaptingModifierCap = 10.0
 #Bauxite Ore Worldgen
 [bauxite_ore]
 	#Enable/Disable Bauxite ore
-	bauxiteOreEnabled = true
+	bauxiteOreEnabled = false
 	#Min Y level
 	#Range: -60 ~ 256
 	minY = -60
@@ -21,7 +21,7 @@ adaptingModifierCap = 10.0
 #Kepu Ore Worldgen
 [kepu_ore]
 	#Enable/Disable Kepu ore
-	kepuOreEnabled = true
+	kepuOreEnabled = false
 	#Min Y level
 	#Range: -60 ~ 256
 	minY = -20
@@ -38,7 +38,7 @@ adaptingModifierCap = 10.0
 #Epidote Ore Worldgen
 [epidote_ore]
 	#Enable/Disable Epidote ore
-	epidoteOreEnabled = true
+	epidoteOreEnabled = false
 	#Min Y level
 	#Range: -60 ~ 256
 	minY = -60
@@ -55,7 +55,7 @@ adaptingModifierCap = 10.0
 #Hureaulite Ore Worldgen
 [hureaulite_ore]
 	#Enable/Disable Hureaulite ore
-	hureauliteOreEnabled = true
+	hureauliteOreEnabled = false
 	#Min Y level
 	#Range: -80 ~ 0
 	minY = -60
@@ -72,7 +72,7 @@ adaptingModifierCap = 10.0
 #Red Beryl Ore Worldgen
 [red_beryl_ore]
 	#Enable/Disable Red Beryl ore
-	redBerylOreEnabled = true
+	redBerylOreEnabled = false
 	#Min Y level
 	#Range: -60 ~ 256
 	minY = -40
