@@ -5,21 +5,21 @@ global.metals = [
         nameProcessed:'Iron',
         nameRaw:'Iron',
         outputSecond:'nickel',
-        pool:'1, 2',
+        pool:[1, 2]
     },
     {
         id:'copper',
         nameProcessed:'Copper',
         nameRaw:'Copper',
         outputSecond:'gold',
-        pool:'4, 6',
+        pool:[4, 6]
     },
     {
         id:'gold',
         nameProcessed:'Gold',
         nameRaw:'Gold',
         outputSecond:'copper',
-        pool:'2, 3',
+        pool:[2, 3]
     },
     // Blood Magic
     {
@@ -27,7 +27,7 @@ global.metals = [
         nameProcessed:'Hellforged',
         nameRaw:'Demonite',
         outputSecond:'iesnium',
-        pool:'6, 8',
+        pool:[6, 8]
     },
     // Create
     {
@@ -35,7 +35,7 @@ global.metals = [
         nameProcessed:'Zinc',
         nameRaw:'Zinc',
         outputSecond:'aluminum',
-        pool:'4, 6',
+        pool:[4, 6]
     },
     // Immersive Engineering
     {
@@ -43,28 +43,28 @@ global.metals = [
         nameProcessed:'Aluminium',
         nameRaw:'Bauxite',
         outputSecond:'iron',
-        pool:'4, 6',
+        pool:[4, 6]
     },
     {
         id:'lead',
         nameProcessed:'Lead',
         nameRaw:'Lead',
         outputSecond:'uranium',
-        pool:'2, 3',
+        pool:[2, 3]
     },
     {
         id:'nickel',
         nameProcessed:'Nickel',
         nameRaw:'Nickel',
         outputSecond:'copper',
-        pool:'1, 2',
+        pool:[1, 2]
     },
     {
         id:'uranium',
         nameProcessed:'Uranium',
         nameRaw:'Uranium',
         outputSecond:'lead',
-        pool:'1, 2',
+        pool:[1, 2]
     },
     // Occultism
     {
@@ -72,7 +72,7 @@ global.metals = [
         nameProcessed:'Iesnium',
         nameRaw:'Iesnium',
         outputSecond:'hellforged',
-        pool:'4, 6',
+        pool:[4, 6]
     },
     // Thermal
     {
@@ -80,7 +80,7 @@ global.metals = [
         nameProcessed:'Tin',
         nameRaw:'Tin',
         outputSecond:'iron',
-        pool:'3, 5',
+        pool:[3, 5]
     },
     // Tinkers
     {
@@ -88,7 +88,7 @@ global.metals = [
         nameProcessed:'Cobalt',
         nameRaw:'Cobalt',
         outputSecond:'lead',
-        pool:'1, 2',
+        pool:[1, 2]
     },
 ]
 
