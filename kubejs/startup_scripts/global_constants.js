@@ -467,8 +467,6 @@ global.rocks = [
     {tagName:'limestone',     displayName:'Limestone',     sourcePrefix:'create'},
     {tagName:'shale',         displayName:'Shale',         sourcePrefix:'darkerdepths'},
     {tagName:'otherstone',    displayName:'Otherstone',    sourcePrefix:'occultism'},
-    {tagName:'darkstone',     displayName:'Darkstone',     sourcePrefix:'forbidden_arcanus'},
-    {tagName:'dungeon_stone', displayName:'Demon Stone',   sourcePrefix:'bloodmagic'},
     {tagName:'sandstone',     displayName:'Sandstone',     sourcePrefix:'minecraft'},
     {tagName:'red_sandstone', displayName:'Red Sandstone', sourcePrefix:'minecraft'},
     {tagName:'twisted_rock',  displayName:'Twisted Rock',  sourcePrefix:'malum'},
