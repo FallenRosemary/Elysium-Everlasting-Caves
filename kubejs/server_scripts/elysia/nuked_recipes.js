@@ -5,8 +5,6 @@ onEvent('recipes', event => {
 		'tconstruct:smeltery/casting/seared/brick_composite',
         'minecraft:conduit',
         'architects_palette:abyssaline',
-        'bloodmagic:sacrificial_dagger',
-        'bloodmagic:blood_altar',
         'malum:spirit_altar',
 		'minecraft:wooden_sword',
 		'minecraft:wooden_hoe',
@@ -52,8 +50,12 @@ onEvent('recipes', event => {
 		'create:crafting/materials/andesite_alloy',
 		'create:crafting/materials/andesite_alloy_from_zinc',
 		'thermal:compat/create/smelter_create_alloy_andesite_alloy',
-		'minecraft:tnt'
-
+		'minecraft:tnt',
+		'thermal:rubber_from_vine',
+		'thermal:rubber_from_dandelion',
+		'thermal:rubber_3',
+		'thermal:smelting/cured_rubber_from_smelting',
+		'thermal:furnace_778338694'
     ]
 
     nukedRecipes.forEach((recipeToNuke) => {
@@ -98,7 +100,6 @@ onEvent('recipes', event => {
 	event.remove({id:'aiotbotania:manasteel_aiot'})
 	event.remove({id:'botania:glimmering_livingwood_log'})
 	event.remove({id:'architects_palette:algal_blend'})
-	event.remove({id:'forbidden_arcanus:mundabitur_dust'})
     event.remove({input:'tconstruct:grout'})
     event.remove({id:'architects_palette:smelting/algal_brick_from_algal_blend_smelting'})
     event.remove({id:'tconstruct/smeltery/casting/seared/brick_composite'})
