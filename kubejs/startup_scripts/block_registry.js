@@ -1,14 +1,14 @@
 onEvent('block.registry', event => {
     global.metals.forEach((metal) => {
 		
-		event.create(`${metal.id}_block`).displayName(`Block Of ${metal.nameProcessed}`).textureAll(`kubejs:unification/${metal.id}/block`);
-		event.create(`${metal.id}_block_raw`).displayName(`Block Of Raw ${metal.nameRaw}`).textureAll(`kubejs:unification/${metal.id}/block_raw`);
-        event.create(`${metal.id}_ore_stone`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/stone`);
-        event.create(`${metal.id}_ore_deepslate`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/deepslate`);
+		event.create(`${metal.id}_block`).displayName(`Block Of ${metal.nameProcessed}`).textureAll(`kubejs:unification/${metal.id}/block`).material('metal');
+		event.create(`${metal.id}_block_raw`).displayName(`Block Of Raw ${metal.nameRaw}`).textureAll(`kubejs:unification/${metal.id}/block_raw`).material('metal');
+        event.create(`${metal.id}_ore_stone`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/stone`).material('stone');
+        event.create(`${metal.id}_ore_deepslate`).displayName(`${metal.nameRaw} Ore`).textureAll(`kubejs:unification/${metal.id}/deepslate`).material('stone');
 
     })
     event.create('andesite_lined_daub').displayName("Andesite Lined Daub")
-    event.create('copper_lined_daub').displayName("Copper Lined Daub")
+    event.create('copper_lined_grout').displayName("Copper Lined Grout")
     event.create('brass_lined_sunmetal').displayName("Brass Lined Sunmetal")
     event.create('sunmetal').displayName("Sunmetal")
 
