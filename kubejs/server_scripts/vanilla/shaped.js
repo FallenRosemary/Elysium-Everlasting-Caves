@@ -1,13 +1,5 @@
 onEvent('recipes', event => {
 
-	event.shaped('1x bloodmagic:altar',[
-		'BCB',
-		'BDB',
-	],{
-		B: 'architects_palette:abyssaline_bricks',
-		C: 'minecraft:conduit',
-		D: '#botania:runes'
-	})
 	event.shaped('1x malum:spirit_altar',[
 		'   ',
 		'BCB',
@@ -58,7 +50,7 @@ onEvent('recipes', event => {
 		B: 'create:cogwheel',
 		C: 'kubejs:screw_basic',
 		D: 'kubejs:andesite_lined_daub',
-		E: '#forge:honeycombs',
+		E: 'minecraft:honeycomb',
 	})
 	event.shaped('2x kubejs:invar_diy',[
 		'ABA',
@@ -87,7 +79,7 @@ onEvent('recipes', event => {
 		' B ',
 		'CDC',
 	],{
-		B: '#forge:gears/bronze',
+		B: 'kubejs:gold_gear',
 		C: 'kubejs:copper_plate',
 		D: 'kubejs:copper_ingot',
 	})
