@@ -40,3 +40,17 @@ onEvent('block.loot_tables', event => {
 	})
 
 })
+
+onEvent('recipes', event => {
+
+	soils.forEach((soil) => {
+
+        event.shapeless(`${soil.input}`, [
+			`kubejs:pile_${soil.output}`,
+			`kubejs:pile_${soil.output}`,
+			`kubejs:pile_${soil.output}`,
+			`kubejs:pile_${soil.output}`,
+		])
+    })
+
+})
