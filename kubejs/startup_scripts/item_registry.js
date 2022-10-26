@@ -235,6 +235,11 @@ onEvent('item.registry', event => {
 		},
 		// Crafting Ingredients
 		{
+			id:`wrapped_stick`,
+			name:`Wrapped Stick`,
+			texturePath:`misc/wrapped_stick`
+		},
+		{
 			id:`copper_piping`,
 			name:`Copper Piping`,
 			texturePath:`misc/copper_piping`
@@ -307,6 +312,11 @@ onEvent('item.registry', event => {
 			texturePath:`molds/plate`
 		},
 		// One-Off Bricks/Blends/Pastes
+		{
+			id:`glowberry_paste`,
+			name:`Highly-Explosive Glowberry Mush`,
+			texturePath:`misc/glowberry_paste`
+		},
 		{
 			id:`seared_blend`,
 			name:`Seared Blend`,
