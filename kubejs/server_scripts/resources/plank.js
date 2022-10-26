@@ -70,16 +70,8 @@ onEvent('recipes', event => {
 			output:'coconut'
 		},
 		{
-			input:'forbidden_arcanus:mysterywood_log',
-			output:'mysterywood'
-		},
-		{
 			input:'minecraft:oak_log',
 			output:'oak'
-		},
-		{
-			input:'forbidden_arcanus:fungyss_stem',
-			output:'fungyss'
 		},
 		{
 			input:'minecraft:dark_oak_log',
