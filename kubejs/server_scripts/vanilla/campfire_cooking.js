@@ -21,6 +21,14 @@ onEvent('recipes', event => {
             input:'kubejs:coke_blend',
             output:'1x kubejs:coke_brick',
         },
+        {
+            input:'hardcore_torches:unlit_torch',
+            output:'hardcore_torches:lit_torch',
+        },
+        {
+            input:'minecraft:moss_block',
+            output:'4x quark:moss_paste',
+        },
     ]
 
     campfireCooking.forEach((campfire) => {
