@@ -235,6 +235,11 @@ onEvent('item.registry', event => {
 		},
 		// Crafting Ingredients
 		{
+			id:`salt`,
+			name:`Salt`,
+			texturePath:`misc/salt`
+		},
+		{
 			id:`wrapped_stick`,
 			name:`Wrapped Stick`,
 			texturePath:`misc/wrapped_stick`
